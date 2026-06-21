@@ -21,83 +21,24 @@
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./pages/contacto.html">Contacto</a></li>
+          <!--👉 Agregar un link al carrito, con un ID para el contador -->
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono"
+              >🛒<span id="contador-carrito">0</span></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
       <h1 class="titulo-home text-secondary">Bienvenidos a la tienda</h1>
-      <p class="parrafo">
-        Productos listos para llevar.
-      </p>
+      <p class="parrafo">Productos listos para llevar.</p>
 
       <section>
         <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
-
-        <div class="contenedor-tarjetas">
-          <article class="card text-dark">
-            <img src="./img/coflex-block.jpg" alt="" />
-            <h3>Coffler Block</h3>
-            <p>Alfajor baño chocolate crocante</p>
-            <p>$2000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-dark">
-            <img src="./img/guaymallen.jpg" alt="" />
-            <h3>Guaymallen</h3>
-            <p>Alfajor glaseado blanco</p>
-            <p>$1500</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-          <article class="card text-dark">
-            <img src="./img/milka.jpg" alt="" />
-            <h3>Milka</h3>
-            <p>Alfajor Triple baño crocante</p>
-            <p>$2500</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-
-                  <div class="contenedor-tarjetas">
-          <article class="card text-dark">
-            <img src="./img/cerro-azul.jpg" alt="" />
-            <h3>Cerro Azul</h3>
-            <p>Alfajor sin azucar</p>
-            <p>$2000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-          
-        <div class="contenedor-tarjetas">
-          <article class="card text-dark">
-            <img src="./img/bonobon.jpg" alt="" />
-            <h3>Bonobon</h3>
-            <p>Alfajor con corazon </p>
-            <p>$2000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-      <section>
-
-          <article class="card text-dark">
-            <img src="./img/terrabusi.jpg" alt="" />
-            <h3>Terrabusi Clasico</h3>
-            <p>Alfajor glaseado chocolate</p>
-            <p>$5000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-        </div>
+        <!--👉 Agregar un ID al div, ahora lo necesitamos -->
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
       </section>
     </main>
 
@@ -110,5 +51,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>
