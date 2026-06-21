@@ -5,5 +5,5 @@ GitHub: maga-484
 
 Proyecto: pre entrega Talento tech
 
-"hay que preguntar para que sirve el Readme.md en este caso."
+"pasarle el enlace al compañero para que opine."
 ```
