@@ -56,17 +56,6 @@ h2 {
   border-radius: 5px;
 }
 
-header,
-footer {
-  background: #bb7c90;
-  color: #3f0411;
-  width: 100%;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .div-logo {
   margin-left: 2rem;
   font-weight: bold;
