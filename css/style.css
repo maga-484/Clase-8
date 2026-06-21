@@ -122,16 +122,6 @@ footer p {
 #f2c66d;
 }
 
-.btn {
-  background: #ffd166;
-  color: #2a1e35;
-  border: none;
-  font-size: 1.6rem;
-  font-weight: bold;
-  padding: 1.6rem;
-  border-radius: 1rem;
-}
-
 .btn-eliminar-carrito {
   background-color: #96e095;
   border: 2px solid #6ad21f;
@@ -160,27 +150,8 @@ footer {
   font-weight: bold;
 }
 
-.logo,
-.header-nav ul li a {
-  text-decoration: none;
-  font-size: 3rem;
-  color: inherit;
-  display: inline-block;
-  padding: 2rem;
-}
-
 .header-nav {
   margin-right: 2rem;
-}
-
-.header-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-footer p {
-  margin: 2rem;
 }
 
 footer nav ul {
