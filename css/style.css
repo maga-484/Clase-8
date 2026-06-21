@@ -96,7 +96,17 @@ footer .footer-list img {
   max-width: 5rem;
   padding: 0.5rem;
 }
+.footer-list li {
+  padding: 2rem;
+}
 
+.footer-list img {
+  width: 5rem;
+}
+
+footer p {
+  padding: 2rem;
+}
 /*------------*/
 /*  COLORES   */
 /*------------*/
@@ -121,6 +131,79 @@ footer .footer-list img {
   color: #3f0411;
 
 #f2c66d;
+}
+
+.btn {
+  background: #ffd166;
+  color: #2a1e35;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.6rem;
+  border-radius: 1rem;
+}
+
+.btn-eliminar-carrito {
+  background-color: #96e095;
+  border: 2px solid #6ad21f;
+}
+.btn-vaciar-carrito {
+  background-color: #f7bb2b;
+  color: #1d1a20;
+}
+.btn-vaciar-carrito:hover {
+  background-color: #e0aa24;
+}
+
+header,
+footer {
+  background: #5c4a7a;
+  color: #fff7fb;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-logo {
+  margin-left: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.logo,
+.header-nav ul li a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: inherit;
+  display: inline-block;
+  padding: 2rem;
+}
+
+.header-nav {
+  margin-right: 2rem;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+footer p {
+  margin: 2rem;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+footer nav ul li {
+  padding: 1rem;
 }
 
 /*---------------------- */
@@ -194,6 +277,18 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* sutil */
 .grupo-input textarea {
   min-height: 10rem;
   resize: vertical;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              👉Nuevo: Carrito                              */
+/* -------------------------------------------------------------------------- */
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
 }
 
 /*------------------------------*/
