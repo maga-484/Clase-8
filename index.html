@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a href="./index.html" class="logo">LOGO</a>
+      </div>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pages/contacto.html">Contacto</a></li>
+          <!--👉 Agregar un link al carrito, con un ID para el contador -->
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono"
+              >🛒<span id="contador-carrito">0</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="titulo-home text-secondary">Bienvenidos a la tienda</h1>
+      <p class="parrafo">Productos listos para llevar.</p>
+
+      <section>
+        <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
+        <!--👉 Agregar un ID al div, ahora lo necesitamos -->
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Sitio realizado para la pre entrega de Talento Tech</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="./img/whatsapp.jpg" alt="logo-whatapp" /></li>
+          <li><img src="./img/social.jpg" alt="logo-instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
