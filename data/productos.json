@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "nombre": "Bon o Bon",
+    "precio": 50,
+    "img": "img/bonobon.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Cerro Azul",
+    "precio": 73,
+    "img": "img/cerro-azul.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Cofler Block ",
+    "precio": 83,
+    "img": "img/coflex-block.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Guaymallen",
+    "precio": 91,
+    "img": "img/guaymallen.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "Milka",
+    "precio": 113,
+    "img": "img/milka.jpg"
+  },
+  {
+    "id": "6",
+    "nombre": "Terrabusi",
+    "precio": 127,
+    "img": "img/terrabusi.jpg"
+  }
+]
