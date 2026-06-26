@@ -25,6 +25,10 @@ const renderizarProductos = () => {
         const precio = document.createElement("p");
         precio.textContent = `$${producto.precio}`;
 
+        const descripcion = document.createElement("p");
+        descripcion.textContent = producto.descripcion;
+        descripcion.classList.add("descripcion");
+
         const boton = document.createElement("button");
         boton.classList.add("btn", "bg-secondary", "text-dark");
         boton.textContent = "Agregar al carrito";
@@ -33,12 +37,10 @@ const renderizarProductos = () => {
           agregarAlCarrito(producto);
         });
 
-        //Sigo adentro del ciclo
-
-        // Armar la estructura de la tarjeta
         tarjeta.appendChild(img);
         tarjeta.appendChild(titulo);
         tarjeta.appendChild(precio);
+        tarjeta.appendChild(descripcion);
         tarjeta.appendChild(boton);
 
         //Agregamos la tarjeta al DOM

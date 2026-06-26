@@ -16,7 +16,7 @@ export const agregarAlCarrito = (producto) => {
 
   //usamos la funcion UI que actualiza en numero en carrito
   actualizarContador(carrito);
-  mostrarMensaje("Producto agregado 🎉");
+  mostrarMensaje("El señor cliente ha agregado un producto 🎉");
 };
 
 export const eliminarProducto = (indice) => {
@@ -29,11 +29,15 @@ export const eliminarProducto = (indice) => {
 
   //actualizamos el contador
   actualizarContador(carrito);
-  mostrarMensaje("Producto eliminado ✅");
+  mostrarMensaje(
+    "El señor cliente ha eliminado un producto. Puede enviarnos un mensaje si desea que le enviemos novedades✅",
+  );
 };
 
 export const vaciarCarrito = () => {
   vaciarCarritoStorage();
   actualizarContador([]);
-  mostrarMensaje("Carrito vaciado");
+  mostrarMensaje(
+    "El señor cliente ha vaciado el carrito. Puede enviarnos un mensaje si desea que le enviemos novedades",
+  );
 };

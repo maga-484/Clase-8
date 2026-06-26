@@ -223,19 +223,22 @@ footer nav ul li {
   flex-wrap: wrap;
   gap: 2rem;
 }
+.descripcion {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 5px 0;
+  font-style: italic;
+  min-height: 20px;
+}
 
 .card {
-  background-color: #d0aab5;
-  width: 30rem;
-
-  border-radius: 1rem;
-  overflow: hidden;
-
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  padding-bottom: 2rem;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  width: 200px;
 }
 
 .card img {
@@ -243,6 +246,7 @@ footer nav ul li {
   height: 20rem;
   object-fit: cover;
 }
+
 /*-----------------*/
 /*-----------------CONTACTO-----------------*/
 /*-----------------*/
